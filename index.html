@@ -132,16 +132,29 @@
         //function perameter pass
         function addNum(num1,num2){
             var num3=num1+num2
-            document.write(num3 + "<br>")
+            //document.write(num3 + "<br>")
         }
         //addNum(10,40)
         //addNum(50,60)
 
         function name(name){
-            document.write(name+ "<br>")
+            //document.write(name+ "<br>")
         }
         name("Md Remon")
         name("Rakibul islam Remon")
+
+        //function return
+        function add(n1,n2){
+            return n1-n2;
+        }
+        var ne=add(51,19)+5;
+        //document.write(ne)
+
+        //for loop in array
+        var catagory=["Remon","Rakib","Sakib","Adil","Sayem","Rabbi"]
+        for(var item in catagory){
+            document.write(catagory[item]+"<br>")
+        }
 
 
     </script>

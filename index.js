@@ -130,3 +130,16 @@ function name(name){
 }
 name("Md Remon")
 name("Rakibul islam Remon")
+
+//function return
+function add(n1,n2){
+    return n1-n2;
+}
+var ne=add(51,19)+5;
+//console.log(ne)
+
+//for loop in array
+var catagory=["Remon","Rakib","Sakib","Adil","Sayem","Rabbi"]
+for(var item in catagory){
+    console.log(catagory[item]+"<br>")
+}
