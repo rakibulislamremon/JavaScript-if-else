@@ -111,7 +111,22 @@ function addNum(){
     var num1=20;
     var num2=40;
     var num3=num1+num2
-    console.log(num3 )
+    //console.log(num3 )
 }
 addNum()
 addNum()
+
+
+//function perameter pass
+function addNum(num1,num2){
+    var num3=num1+num2
+    //console.log(num3 + "<br>")
+}
+addNum(10,40)
+addNum(50,60)
+
+function name(name){
+    //console.log(name+ "<br>")
+}
+name("Md Remon")
+name("Rakibul islam Remon")
