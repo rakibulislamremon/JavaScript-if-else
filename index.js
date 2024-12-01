@@ -93,6 +93,14 @@ for(i=0;i<10;i=i+1 ){
 //while loop
 var i=0;
 while(i<7){
-    console.log(i+ "<button>Submit</button> </br>")
+    //console.log(i+ "<button>Submit</button> </br>")
     i=i+1 
 } 
+
+// Do while loop
+var y=0;
+do{
+    console.log(y+"<button> Do while loop</button> <br>")
+    y=y+1;
+}
+while(y<5)
