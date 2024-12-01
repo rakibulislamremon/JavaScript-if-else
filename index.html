@@ -56,27 +56,52 @@
         var mark=51
         switch(true){
             case(mark<=100 && mark>=80):
-            document.write('You get A+');
+            //document.write('You get A+');
             break;
             case(mark<=80 && mark>=70):
-            document.write('You get A');
+            //document.write('You get A');
             break;
             case(mark<=70 && mark>=60):
-            document.write('You get A-');
+            //document.write('You get A-');
             break;
             case(mark<=60 && mark>=50):
-            document.write('You get B');
+            //document.write('You get B');
             break;
             case(mark<=50 && mark>=40):
-            document.write('You get C');
+            //document.write('You get C');
             break;
             case(mark<=40 && mark>=33):
-            document.write('You get D');
+            //document.write('You get D');
             break;
             
             default:
-                document.write('you are fail')
+                //document.write('you are fail')
         }
+
+
+        //for loop
+        var i;
+        for(i=0;i<10;i=i+1 ){
+            //document.write(i+ "<button>Submit</button> </br>")
+        }        
+        
+        //loop continue statement
+        var i;
+        for(i=0;i<10;i=i+1 ){
+            if(i==5 || i==8){
+                continue;
+            }
+            //document.write(i+ "<button>Submit</button> </br>")
+        }   
+
+        //loop break statement
+        var i;
+        for(i=0;i<10;i=i+1 ){
+            if(i==4){
+                break;
+            }
+            document.write(i+ "<button>Submit</button> </br>")
+        }  
     </script>
 </body>
 </html>
