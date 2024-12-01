@@ -100,7 +100,18 @@ while(i<7){
 // Do while loop
 var y=0;
 do{
-    console.log(y+"<button> Do while loop</button> <br>")
+    //console.log(y+"<button> Do while loop</button> <br>")
     y=y+1;
 }
 while(y<5)
+
+
+//function
+function addNum(){
+    var num1=20;
+    var num2=40;
+    var num3=num1+num2
+    console.log(num3 )
+}
+addNum()
+addNum()
