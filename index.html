@@ -28,27 +28,54 @@
         }
 
         //if else and else if statement
-        var mark=12;
+        //var mark=12;
         if(mark>=80 && mark<=100){
-            document.write('You got A+')
+            //document.write('You got A+')
         }
         else if(mark<80 && mark>=70){
-            document.write('You got A')
+            //document.write('You got A')
         }
         else if(mark<70 && mark>=60){
-            document.write('You got A-')
+            //document.write('You got A-')
         }
         else if(mark<60 && mark>=50){
-            document.write('You got B')
+            //document.write('You got B')
         }
         else if(mark<50 && mark>=40){
-            document.write('You got C')
+            //document.write('You got C')
         }
         else if(mark<40 && mark>=33){
-            document.write('You got D')
+            //document.write('You got D')
         }
         else{
-            document.write('You fail')
+            //document.write('You fail')
+        }
+
+
+        //switch statement
+        var mark=51
+        switch(true){
+            case(mark<=100 && mark>=80):
+            document.write('You get A+');
+            break;
+            case(mark<=80 && mark>=70):
+            document.write('You get A');
+            break;
+            case(mark<=70 && mark>=60):
+            document.write('You get A-');
+            break;
+            case(mark<=60 && mark>=50):
+            document.write('You get B');
+            break;
+            case(mark<=50 && mark>=40):
+            document.write('You get C');
+            break;
+            case(mark<=40 && mark>=33):
+            document.write('You get D');
+            break;
+            
+            default:
+                document.write('you are fail')
         }
     </script>
 </body>
