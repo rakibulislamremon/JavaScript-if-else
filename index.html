@@ -150,10 +150,21 @@
         var ne=add(51,19)+5;
         //document.write(ne)
 
-        //for loop in array
+        //for in loop  array
         var catagory=["Remon","Rakib","Sakib","Adil","Sayem","Rabbi"]
         for(var item in catagory){
-            document.write(catagory[item]+"<br>")
+            //document.write(catagory[item]+"<br>")
+        }
+
+        //for in loop object
+        var person={
+            name:"Remon",
+            Age:"20",
+            isBd:true,
+            Height:"5.5"
+        }
+        for(var item in person){
+            document.write(person[item]+"<br>")
         }
 
 

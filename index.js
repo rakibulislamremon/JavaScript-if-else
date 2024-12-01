@@ -141,5 +141,16 @@ var ne=add(51,19)+5;
 //for loop in array
 var catagory=["Remon","Rakib","Sakib","Adil","Sayem","Rabbi"]
 for(var item in catagory){
-    console.log(catagory[item]+"<br>")
+    //console.log(catagory[item]+"<br>")
+}
+
+//for in loop object
+var person={
+    name:"Remon",
+    Age:"20",
+    isBd:true,
+    Height:"5.5"
+}
+for(var item in person){
+    console.log(person[item]+"<br>")
 }
