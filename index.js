@@ -87,5 +87,12 @@ for(i=0;i<10;i=i+1 ){
     if(i==5){
         break;
     }
-    console.log(i+ "<button>Submit</button> </br>")
+    //console.log(i+ "<button>Submit</button> </br>")
 }
+
+//while loop
+var i=0;
+while(i<7){
+    console.log(i+ "<button>Submit</button> </br>")
+    i=i+1 
+} 
